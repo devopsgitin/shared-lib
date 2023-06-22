@@ -1,3 +1,3 @@
-def call(myname,age) {
-  echo "NAME: ${myname}, AGE: ${age}"
+def call(name,age) {
+  echo "NAME: ${name}, AGE: ${age}"
 }
