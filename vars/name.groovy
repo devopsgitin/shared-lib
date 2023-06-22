@@ -1,3 +1,3 @@
-def call(String name,age) {
+def call(String name,String age) {
   sh 'echo "NAME: ${name} AGE: ${age}"'
 }
