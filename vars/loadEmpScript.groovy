@@ -1,5 +1,5 @@
-def call(String filename) {
-    def content = libraryResource "emp/${filename}"
-    writeFile file: filename, text: content
-    sh "chmod +x ${filename}"
+def call(String script) {
+    def content = libraryResource "emp/${script}"
+    writeFile file: script, text: content
+    sh "chmod +x ${script}"
 }
